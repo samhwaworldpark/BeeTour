@@ -1,0 +1,75 @@
+nav {
+	padding: 0;
+}
+nav h1 {
+	display: none;
+}
+nav .container {
+	padding: 0 15px;
+}
+nav .container .navbar-site {
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	color: #e6a756;
+	font-weight: 700!important;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+nav .container .navbar-toggler {
+	display: block;
+	padding: 0.25rem 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background: 0 0;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 0.25rem;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+nav .container div {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	background-color: rgba(47, 23, 15, 0.97);
+	z-index: 1;
+}
+nav .container ul {
+	margin: 0;
+	height: 100vh;
+	display: block;
+	padding: 5px 0 0 10px;
+}
+nav .container ul li {
+	display: block;
+	padding: 5px 0;
+	clear: both;
+}
+nav .container ul li a {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.btn {
+	font-size: 1rem;
+}
+
+#inBox h1 {
+	font-size: 2rem;
+}
+#inBox h2 {
+	font-size: 1rem;
+}
+
+.isotope-item {
+	font-size: 1rem;
+}
+.isotope-item img {
+	min-height: 100px;
+}

@@ -1,0 +1,12 @@
+nav .container {
+	max-width: 576px;
+}
+
+section.contents ul li {
+	width: calc(100% - 20px);
+}
+
+.btn {
+	width: calc(100% / 4 - 20px);
+	font-size: 0.7rem;
+}

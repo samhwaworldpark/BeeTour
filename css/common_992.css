@@ -1,0 +1,29 @@
+nav .container {
+	height: 50px;
+	padding: 5px 15px;
+}
+nav .container ul {
+	padding-top: 8px;
+}
+nav .container ul li a {
+	font-size: 1.5rem;
+}
+
+section.contents2 {
+	padding: 20px 10%;
+}
+#inBox .width-60 {
+	width: calc(100% - 20px);
+	padding: 0 10px;
+}
+#inBox .width-40 {
+	width: 100%;
+}
+
+#inBox .height-20 a {
+	font-size: 1rem;
+}
+
+.isotope-item img {
+	min-height: 120px;
+}
